@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>海獺蛋白質計算器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <img src="images/capybara.png" class="capy">
+
+    <h1>🦫 海獺蛋白質計算器</h1>
+    <p class="subtitle">計算每日建議蛋白質攝取量</p>
+
+    <label>請輸入體重 (kg)</label>
+    <input type="number" id="weight" placeholder="例如：60">
+
+    <label>選擇運動強度</label>
+    <select id="activity">
+        <option value="0.8">久坐</option>
+        <option value="1.2">一般運動</option>
+        <option value="1.6">重訓增肌</option>
+        <option value="2.0">高強度運動</option>
+    </select>
+
+    <button onclick="calculate()">開始計算</button>
+
+    <div id="result">
+        每日建議蛋白質攝取量
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

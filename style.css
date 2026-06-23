@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Microsoft JhengHei",sans-serif;
+
+    background:
+    linear-gradient(
+        rgba(255,255,255,0.3),
+        rgba(255,255,255,0.3)
+    ),
+    url("images/capybara.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+
+    width:500px;
+
+    background:rgba(255,255,255,0.88);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:30px;
+
+    padding:35px;
+
+    box-shadow:
+    0 10px 40px rgba(0,0,0,.15);
+
+}
+
+h1{
+    text-align:center;
+    color:#6b513d;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#888;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+input,
+select{
+
+    width:100%;
+
+    padding:14px;
+
+    border:2px solid #d8cdbf;
+
+    border-radius:15px;
+
+    font-size:16px;
+}
+
+button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#8ea56a;
+
+    color:white;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.02);
+}
+
+.capy{
+    width:120px;
+    display:block;
+    margin:auto;
+    margin-bottom:10px;
+}
+
+#result{
+
+    margin-top:25px;
+
+    background:#fff9ed;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    text-align:center;
+
+    font-size:22px;
+
+    color:#6b513d;
+
+    font-weight:bold;
+}
